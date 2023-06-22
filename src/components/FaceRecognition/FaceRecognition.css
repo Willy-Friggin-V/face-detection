@@ -1,5 +1,7 @@
-.bounding{
+.bounding-box{
     position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    border-radius: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
