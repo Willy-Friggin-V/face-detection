@@ -64,7 +64,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch('http://localhost:3000')
+    fetch('https://server-4sm8.onrender.com/')
     .then(response => response.json())
     .then(console.log)
   }
@@ -109,7 +109,7 @@ class App extends Component {
       .then(response => {
         console.log("hi", response)
         if(response) {
-        fetch('http://localhost:3000/image', {
+        fetch('https://server-4sm8.onrender.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
